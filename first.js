@@ -44,11 +44,10 @@ price1 += 10;
 
 // practice problem 1
 
+var haveMoney = 1000;
 var orangePrice = 300;
 var applePrice = 400;
 var totalPrice = orangePrice + applePrice;
-// console.log(totalPrice);
-var haveMoney = 1000;
 var returnMoney = haveMoney - totalPrice;
 // console.log(returnMoney);
 
@@ -61,7 +60,6 @@ var chemistry = 80;
 var physics = 35.45;
 var bangla = 99.50;
 var totalMarks = mathematics + biology + chemistry + physics + bangla;
-// console.log(totalMarks);
 var avaresMarks = totalMarks / 5 ;
 // console.log(avaresMarks.toFixed(2));
 
