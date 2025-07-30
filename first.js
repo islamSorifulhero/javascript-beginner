@@ -67,4 +67,17 @@ var avaresMarks = totalMarks / 5 ;
 
 var number = 119;
 var remainder = number % 5;
-console.log(remainder);
+// console.log(remainder);
+
+
+
+
+
+let myMarks = 45;
+let friendsMarks = 97;
+if(myMarks > friendsMarks){
+    console.log("amar bondhu amar theke kom paiche");
+}
+else{
+    console.log("ami vaiddha amar marks onek kom");
+}
