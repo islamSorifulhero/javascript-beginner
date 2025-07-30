@@ -60,7 +60,7 @@ var chemistry = 80;
 var physics = 35.45;
 var bangla = 99.50;
 var totalMarks = mathematics + biology + chemistry + physics + bangla;
-var avaresMarks = totalMarks / 5 ;
+var avaresMarks = totalMarks / 5;
 // console.log(avaresMarks.toFixed(2));
 
 //practice problem 3;
@@ -73,11 +73,14 @@ var remainder = number % 5;
 
 
 
-let myMarks = 45;
-let friendsMarks = 97;
-if(myMarks > friendsMarks){
-    console.log("amar bondhu amar theke kom paiche");
-}
-else{
-    console.log("ami vaiddha amar marks onek kom");
-}
+// let myMarks = 45;
+// let friendsMarks = 97;
+// if(myMarks > friendsMarks){
+//     console.log("amar bondhu amar theke kom paiche");
+// }
+// else{
+//     console.log("ami vaiddha amar marks onek kom");
+// }
+
+
+// let num = [3, 55, 654, 3, 3, 45, 432, 776, 4]

@@ -147,10 +147,55 @@
 
 //for -- sum 
 
-var sum = 0;
-for (let i = 0; i <= 10; i++){
-    sum = i + sum;
+// var sum = 0;
+// for (let i = 0; i <= 10; i++){
+//     sum = i + sum;
+// }
+// console.log(sum);
+
+
+// for(let i = 1; i <= 100; i++){
+//     if(i % 5 === 0)
+//     console.log(i);
+// }
+
+// for(let i = 0; i <= 30; i++){
+//     if (i % 3 === 0)
+//         console.log(i);
+// }
+
+// for(let i = 0; i <= 30; i++){
+//     if (i % 3 === 0 || i % 5 === 0)
+//         console.log(i);
+// }
+   
+
+// for(let i = 0; i <= 100; i++){
+//     if (i % 3 === 0 && i % 5 === 0)
+//         console.log(i);
+// }
+
+
+// let sum = 0;
+// for (let i = 1; i < 20; i++){
+//     if (i % 3 === 0){
+//         console.log("3 bvaided:",i);
+//         sum = i + sum;
+        
+//     }
+// }
+// console.log("sum numbers is:",sum);
+
+
+// for (let i = 0; i < 15; i++){
+//     console.log(i);
+//     if(i >= 7)
+//         break;
+// }
+
+for (let i = 0; i < 15; i++){
+    console.log(i);
+    if(i >= 7)
+        break;
 }
-console.log(sum);
-
-
+console.log("life after break up");
