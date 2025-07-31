@@ -335,6 +335,64 @@
 
 //practice task - 5 count Down number
 
-for(let i = 81; i >= 65; i--){
+// for(let i = 81; i >= 65; i--){
+//     console.log(i);
+// }
+
+//practice task 3 Break with for loop
+
+// for (let i = 1; i <= 200; i++) {
+//     console.log(i);
+//     if (i === 100) {
+//         break;
+//     }
+// }
+
+//practice task sum up to 100 for loop
+
+// sum = 0;
+// for(i = 1; ; i++){
+//     console.log(i);
+//     sum = i + sum;
+//     if(sum >= 100){
+//         break;
+//     }
+// }
+// console.log(sum);
+
+// for (let i = 1; i <= 100; i++){
+//     if(Number.isInteger(Math.sqrt(i))){
+//         console.log(i);
+//         break;
+//     }
+//     console.log(i);
+// }
+
+
+
+//practice task sum up to 300 for loop
+
+// let sum = 0;
+// for(let i = 1; ; i++){
+//     console.log(i);
+//     sum = sum + i;
+//     if(sum > 1000){
+//         break;
+//     }
+// }
+// console.log(sum);
+
+
+
+//continue 
+
+// for(let i = 2; i <= 40; i+= 2){
+//     console.log(i);
+// }
+
+for(let i= 1; i <= 40; i++){
+    if(i % 2 !== 0){
+        continue;
+    }
     console.log(i);
 }
