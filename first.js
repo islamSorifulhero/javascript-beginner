@@ -81,6 +81,3 @@ var remainder = number % 5;
 // else{
 //     console.log("ami vaiddha amar marks onek kom");
 // }
-
-
-// let num = [3, 55, 654, 3, 3, 45, 432, 776, 4]

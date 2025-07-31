@@ -168,7 +168,7 @@
 //     if (i % 3 === 0 || i % 5 === 0)
 //         console.log(i);
 // }
-   
+
 
 // for(let i = 0; i <= 100; i++){
 //     if (i % 3 === 0 && i % 5 === 0)
@@ -181,7 +181,7 @@
 //     if (i % 3 === 0){
 //         console.log("3 bvaided:",i);
 //         sum = i + sum;
-        
+
 //     }
 // }
 // console.log("sum numbers is:",sum);
@@ -193,9 +193,83 @@
 //         break;
 // }
 
-for (let i = 0; i < 15; i++){
-    console.log(i);
-    if(i >= 7)
-        break;
-}
-console.log("life after break up");
+// for (let i = 0; i < 15; i++){
+//     console.log(i);
+//     if(i >= 7)
+//         break;
+// }
+// console.log("life after break up");
+
+
+//practice while loop - 1
+
+
+// let i = 0;
+// while(i < 60){
+//     i++;
+//     console.log("I will invest at least 6 hrs every single day for next 60 days!",i);
+// }
+
+
+
+// practice while loop odd number - task-1
+
+
+// let i = 61;
+// while (i <= 100) {
+//     console.log(i);
+//     i +=2;
+// }
+
+
+// practice while loop even number- task-2
+
+// let i = 78;
+// while(i <= 98){
+//     console.log(i);
+//     i += 2;
+// }
+
+
+// practice while loop sum of all odd number- task-1
+
+// let i = 81;
+// let sum = 0;
+// while(i <= 131){
+//     console.log(i);
+//     sum = sum + i;
+//     i += 2;
+
+// }
+// console.log(sum);
+
+
+// practice while loop sum of all even number- task-2
+
+// let i = 206;
+// let sum = 0;
+// while(i <= 311){
+//     console.log(i);
+//     sum = i + sum;
+//     i += 2;
+// }
+// console.log(sum);
+
+
+
+//Practice -4 Ersa to generate a multiplication table for number 5
+
+// let numbers = 5;
+// let i = 1;
+// while (i <= 10) {
+//     console.log(numbers + "x" + i + "=" + (i * numbers));
+//     i++;
+// }
+
+//practice -5 countdown
+
+// let i = 21;
+// while(i >= 15){
+//     console.log(i);
+//     i--;
+// }
