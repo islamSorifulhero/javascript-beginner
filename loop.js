@@ -273,3 +273,68 @@
 //     console.log(i);
 //     i--;
 // }
+
+
+//for loop practice task start-1
+
+// for(let i = 1; i <= 60; i++){
+//     console.log("I will invest at least every single day for next 60 day",i);
+// }
+
+//practice for loop in odd numbers
+
+// for(let i = 61; i <= 100; i+=2){
+//     console.log(i);
+// }
+
+//or
+
+// for(let i = 61; i <=100; i++){
+//     if (i % 2 ===1){
+//         console.log(i);
+//     }
+// }
+
+
+//practice for loop in even number 
+
+// for(let i = 78; i <= 98; i+=2){
+//     console.log(i);
+// }
+
+//or
+
+// for (let i = 78; i <= 98; i++){
+//     if(i % 2 === 0){
+//         console.log(i);
+//     }
+// }
+
+//practice task -3 sum in for loop
+
+// sum = 0;
+// for(let i = 91; i <= 129; i += 2){
+//     console.log(i);
+//     sum = sum + i;
+// }
+// console.log(sum);
+
+// sum = 0;
+// for(let i = 52; i <= 85; i += 2){
+//     console.log(i);
+//     sum = sum + i;
+// }
+// console.log(sum);
+
+//practice -4 multiple 9
+
+// let num = 9;
+// for(let i = 1; i <= 10; i++){
+//     console.log(num + 'x' + i + '=' + (num * i));
+// }
+
+//practice task - 5 count Down number
+
+for(let i = 81; i >= 65; i--){
+    console.log(i);
+}
