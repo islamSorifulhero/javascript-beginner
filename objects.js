@@ -8,6 +8,18 @@
 // }
 
 
+// //trim means beside space done korbe and === kore dibe
+// const drink = "  water";
+// const liquid = "water";
+// // console.log(drink === liquid);
+// if(drink.trim() === liquid.trim()){
+//     console.log("pani er opor nam jibon.");
+// }
+// else{
+//     console.log("somudrer pani ase khaite pari na");
+// }
+
+
 // const address = 'andorkilla';
 // const update = address.slice(2, 7)
 // console.log(update);
@@ -114,13 +126,13 @@
 // console.log(subject.exam);
 // console.log(subject.exam.marks);
 
-const mobile = {
-    brand: 'samsung',
-    price: 25000,
-    color: 'black',
-    camera: '12mp',
-    isNew: true
-}
+// const mobile = {
+//     brand: 'samsung',
+//     price: 25000,
+//     color: 'black',
+//     camera: '12mp',
+//     isNew: true
+// }
 // console.log(mobile);
 
 // for of : Array
@@ -130,9 +142,92 @@ const mobile = {
 //     console.log(mobile[prop]);
 // }
 
-const keys = Object.keys(mobile);
-console.log(keys);
-for(const key of keys){
-    console.log(key);
+// const keys = Object.keys(mobile);
+// console.log(keys);
+// for(const key of keys){
+//     console.log(key);
+// }
+
+
+// const pen = {brand: 'econo', price: 10, color: 'black'};
+// const pencil = new Object()
+// console.log(pencil);
+// const rubber = Object.create({})
+// console.log(rubber);
+
+
+//object task -1
+
+// const colors = {
+//     red: "#ff0000",
+//     green: "#00ff00",
+//     blue: "#0000ff",
+//     "golden rod": "#daa520"
+// }
+// console.log(colors["golden rod"]);
+
+
+//object task -2
+
+
+// const car = {
+//     make: "Toyota",
+//     model: "Corolla",
+//     year: 2020,
+// };
+// car["passenger capacity"] = 5;
+// console.log(car);
+
+
+//object task -3
+
+// const student = {
+//     name: "Hamim Sakep",
+//     id: 5421,
+//     physics: {
+//         subject: "HSC physics",
+//         author: "Shahjahan Tapan",
+//         marks: 30
+//     }
+// }
+// console.log(student.physics.marks);
+
+
+//object task -4
+
+// let student = {
+//     name: 'Ariana Grande',
+//     age: 21,
+//     city: 'Gaibandha',
+//     isStudent: true
+// };
+// const result = Object.keys(student).length;
+// console.log(result);
+
+
+//object task -5
+
+// let myObject = {
+//     name: 'John Doe',
+//     age: 25,
+//     city: 'Example City',
+//     isStudent: true
+// };
+// for(const [key, value] of Object.entries(myObject)){
+//     console.log(`Key: ${key} | type: ${typeof value}`);
+// }
+
+
+//task -6 
+
+const myObject = {
+    name: "Alice",
+    age: 30,
+    isStudent: false,
+    hobbies: ["reading", "coding"],
+    address: null
+};
+for (const [key, value] of Object.entries(myObject)) {
+    console.log(`key: ${key}, value: ${value},Type: ${typeof value}`);
 }
 
