@@ -235,12 +235,43 @@
 
 //string task is start  1
 
-let string = 'data';
-let countA = 0;
-for(let i = 0; i < string.length; i++){
-    if(string[i] === 'a'){
-        countA++;
+// let string = 'data and datatype';
+// let countA = 0;
+// for(let i = 0; i < string.length; i++){
+//     if(string[i] === 'a'){
+//         countA++;
+//     }
+// }
+// console.log(countA);
+
+
+//string task is start  2
+
+
+// let text = "I Am a learning JavaScript And a Practicing a lot";
+// let count = 0;
+// for (let i = 0; i < text.length; i++) {
+//     if (text[i].toLowerCase() === 'a') {
+//         count++;
+//     }
+// }
+// console.log(count);
+
+
+//string task is start  3
+
+let text = "education is a powerful tool for you";
+let vowels = ['a', 'e', 'i', 'o', 'u'];
+let allVowels = true;
+for(let count of vowels){
+    if(!text.includes(count)){
+        allVowels = false;
+        break;
     }
 }
-console.log(countA);
-
+if(allVowels){
+    console.log('moja hobe');
+}
+else{
+    console.log('kosto hobe');
+}
