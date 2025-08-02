@@ -58,6 +58,7 @@
 // }
 // console.log(revers);
 
+
 // const sentence = "I am learning web development."
 // let rev = '';
 // for(let i = 0; i < sentence.length; i++){
@@ -218,16 +219,28 @@
 // }
 
 
-//task -6 
+//Object task -6 
 
-const myObject = {
-    name: "Alice",
-    age: 30,
-    isStudent: false,
-    hobbies: ["reading", "coding"],
-    address: null
-};
-for (const [key, value] of Object.entries(myObject)) {
-    console.log(`key: ${key}, value: ${value},Type: ${typeof value}`);
+// const myObject = {
+//     name: "Alice",
+//     age: 30,
+//     isStudent: false,
+//     hobbies: ["reading", "coding"],
+//     address: null
+// };
+// for (const [key, value] of Object.entries(myObject)) {
+//     console.log(`key: ${key}, value: ${value},Type: ${typeof value}`);
+// }
+
+
+//string task is start  1
+
+let string = 'data';
+let countA = 0;
+for(let i = 0; i < string.length; i++){
+    if(string[i] === 'a'){
+        countA++;
+    }
 }
+console.log(countA);
 
