@@ -260,18 +260,25 @@
 
 //string task is start  3
 
-let text = "education is a powerful tool for you";
-let vowels = ['a', 'e', 'i', 'o', 'u'];
-let allVowels = true;
-for(let count of vowels){
-    if(!text.includes(count)){
-        allVowels = false;
-        break;
-    }
-}
-if(allVowels){
-    console.log('moja hobe');
-}
-else{
-    console.log('kosto hobe');
-}
+// let text = "education is a powerful tool for you";
+// let vowels = ['a', 'e', 'i', 'o', 'u'];
+// let allVowels = true;
+// for (let count of vowels) {
+//     if (!text.includes(count)) {
+//         allVowels = false;
+//         break;
+//     }
+// }
+// if (allVowels) {
+//     console.log('moja hobe');
+// }
+// else {
+//     console.log('kosto hobe');
+// }
+
+
+//string task is start  4,
+
+
+
+
