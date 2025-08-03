@@ -277,8 +277,75 @@
 // }
 
 
-//string task is start  4,
+// string task is start  4,
+
+// If a given string has either x, replace x by y.if the given string has X, replace it by Y.
+
+// num: 1
+// let str = 'abacd';
+// let c1 = 'a';
+// let c2 = 'x';
+// function replaceCharacter(str, c1, c2) {
+//     let result = "";
+//     for (let i = 0; i < str.length; i++) {
+//         if (str[i] != c1) {
+//             result += str[i];
+//         }
+//         else {
+//             result += c2;
+//         }
+//     }
+//     return result;
+// }
+// let newStr = replaceCharacter(str, c1, c2);
+// console.log(newStr);
+
+// num: 2
+
+// let string = "Exam is exists by example.";
+// let p1 = 'x';
+// let p2 = 'y';
+// function changeValue(string, p1, p2) {
+//     let count = " ";
+//     for (let i = 0; i < string.length; i++) {
+
+//         if (string[i] != p1) {
+//             count += string[i];
+//         }
+//         else {
+//             count += p2;
+//         }
+
+//     }
+//     return count;
+// }
+// let newValue = changeValue(string, p1, p2)
+// console.log(newValue);
+
+//g means = global flag
+
+// let text = "Exam is exists by example"
+// let updatedText = text.replace(/x/g, 'y').replace(/X/g, 'Y');
+// console.log(updatedText);
+
+// let string = "abdul aziz alamin amin alek.";
+// let updatedText = string.replace(/a/g, 'm');
+// console.log(updatedText);
+
+// let friendsName = "xlam is xmal is xjal is xsal is xkam";
+// let changeName = friendsName.replace(/x/g, 'y');
+// console.log(changeName);
 
 
+//string task 5
 
 
+// let text = "capitalize every first letter if each word in a string.";
+// let capitalizedText = text.split(" ")
+//     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+//     .join(" ");
+// console.log(capitalizedText);
+
+let string = "my name is soriful islam. i am a student. I have a dream . My dream is want to be a software developer.";
+let capital = string.split(' ').map(word => word.charAt(0).toUpperCase()+word.slice(1)).join(' ');
+console.log(capital);
