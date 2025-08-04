@@ -5,6 +5,7 @@ var result = area / 2;
 console.log(result);
 
 
+
 /** Problem -02 ( Cycle or Laptop ) */
 var money = 10000;
 //write your code here
@@ -17,6 +18,7 @@ else if(money >= 10000){
 else{
     console.log("Chocolate");
 }
+
 
 
 /** Problem -03 ( Medicine Planner ) */
@@ -48,3 +50,15 @@ else if(fileName.endsWith('.docx')){
 else{
     console.log("Delete");
 }
+
+
+
+/** Problem 05 - ( PH Email Generator )  */
+var student= { name: "jhankar" , roll: 1014 ,department: "cse" };
+//write your code here
+var resultEmail = `${student.name}${student.roll}.${student.department}@ph.ac.bd`;
+    console.log(resultEmail);
+
+
+
+    
