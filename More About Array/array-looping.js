@@ -6,6 +6,7 @@
 // }
 
 const numbers = [32, 35, 53, 23, 65, 76, 98]; {
+    // console.log(numbers);
     let i = 0;
     while (i < numbers.length) {
         console.log(numbers[i]);
