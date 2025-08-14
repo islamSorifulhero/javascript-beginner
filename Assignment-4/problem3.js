@@ -19,3 +19,4 @@ function bestTeam(player1, player2) {
 }
 const result = bestTeam(player1, player2);
 console.log(result);
+
