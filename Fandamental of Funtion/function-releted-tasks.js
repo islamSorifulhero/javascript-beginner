@@ -63,10 +63,30 @@
 // console.log(avgNum);
 
 
-function count_zero(binary){
-    if(binary.length === 0){
-        return binary.length;
+//tasks - 04
+
+// function count_zero(binary){
+//     let count = 0;
+//     for(let i = 0; i < binary.length; i++){
+//         if(binary[i] === '0'){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+// const result = count_zero("110110101001010000");
+// console.log(result);
+
+
+// tasks - 05
+
+function odd_even(value){
+    if(value % 2 === 1){
+        return "odd"
+    }
+    else{
+        return "Even"
     }
 }
-const result = count_zero("1100111101001000101");
+let result = odd_even(21);
 console.log(result);
